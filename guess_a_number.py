@@ -14,4 +14,4 @@ def guess_number(guess):
         guess = int(input())
 
 
-print(guess_number(guess=(input("Guess a number from 1 to 100:\n"))))
+print(guess_number(guess=int((input("Guess a number from 1 to 100:\n")))))
